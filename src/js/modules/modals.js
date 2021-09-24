@@ -42,7 +42,7 @@ const modals = () => {
                 document.body.style.overflow = '';
                 // document.body.classList.remove('modal-open');
             }
-        })
+        });
     }
 
     function showModalByTime(selector, time) {
